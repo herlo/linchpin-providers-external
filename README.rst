@@ -1,7 +1,7 @@
 Provisioning
 ------------
 
-This repository contains additional providers for the `linchpin <https://github.com/CentOS-PaaS-SIG/linchpin.git>`_ project.  Essentially, this repository can be cloned into the `linchpin/provision` directory, which will then provide provisioning for these additional providers.
+This repository contains additional providers for the `linchpin <https://github.com/CentOS-PaaS-SIG/linchpin.git>`_ project.  Essentially, this repository can be cloned onto a system with linchpin already installed. Modifying the linchpin.conf and updating the `external_providers_path` with the new location will then make these additional providers available for use with linchpin.
 
 Beaker
 ======
