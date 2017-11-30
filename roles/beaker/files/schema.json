@@ -33,7 +33,8 @@
                                             "schema": {
                                                 "tag": { "type": "string", "required": true },
                                                 "op": { "type": "string", "required": false },
-                                                "value": { "type": "string", "required": false }
+                                                "value": { "type": ["integer", "string"], "required": false },
+                                                "type": { "type": "string", "required": false }
                                             }
                                         },
                                         {

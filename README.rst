@@ -8,11 +8,10 @@ Beaker
 
 Provisions specific types of systems from an available catalog. See https://beaker-project.org/ for more detail about how Beaker works.
 
-Reference::
+Reference:
 
-* https://github.com/herlo/linchpin-x/blob/master/library/bkr_server.py
-* https://github.com/herlo/linchpin-x/blob/master/library/bkr_info.py
-
+* `<https://github.com/CentOS-PaaS-SIG/linchpin-providers-external/blob/master/library/bkr_server.py>`_
+* `<https://github.com/CentOS-PaaS-SIG/linchpin-providers-external/blob/master/library/bkr_info.py>`_
 
 Duffy
 =====

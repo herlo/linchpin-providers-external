@@ -7,7 +7,7 @@
   roles:
     - { role: "{{ default_roles_path }}/common" }
 
-- name:  "Provisioning openstack resources"
+- name:  "Provisioning beaker resources"
   hosts: localhost
   gather_facts: True
   roles:
