@@ -1,8 +1,4 @@
 ---
-- name: debug res_grp
-  debug:
-    var: res_grp
-
 - name: "Set cred filename"
   set_fact:
     openshift_api_endpoint: "{{ res_grp['credentials']['api_endpoint'] | default('') }}"
